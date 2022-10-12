@@ -1,0 +1,20 @@
+.content {
+    padding-top: 50px;
+}
+.content > form > .row {
+    margin-bottom: 50px;
+}
+.form-control.editable {
+    border: none;
+    border-radius: none;
+}
+.form-control.editable:focus {
+    border: 1px solid #ced4da;
+    outline: none;
+    box-shadow: none;
+}
+
+.completed > span {
+    text-decoration:line-through;
+    font-style: italic;
+}
